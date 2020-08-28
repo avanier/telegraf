@@ -3,8 +3,8 @@ package nats
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/plugins/serializers"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/wavefront"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/outputs/wavefront"
 )
 
 // WavefrontSerializer : WavefrontSerializer struct

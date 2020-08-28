@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/parsers"
+	"github.com/aleveille/telegraf/plugins/parsers/csv"
+	"github.com/aleveille/telegraf/plugins/parsers/influx"
+	"github.com/aleveille/telegraf/plugins/parsers/json"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

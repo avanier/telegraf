@@ -1,6 +1,6 @@
 package columns
 
-import "github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+import "github.com/aleveille/telegraf/plugins/outputs/postgresql/utils"
 
 // a function type that generates column details for the main, and tags table in the db
 type targetColumnInitializer func() (*utils.TargetColumns, *utils.TargetColumns)

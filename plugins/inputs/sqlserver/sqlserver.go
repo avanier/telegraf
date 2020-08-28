@@ -6,9 +6,9 @@ import (
 	"time"
 
 	_ "github.com/denisenkom/go-mssqldb" // go-mssqldb initialization
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/filter"
+	"github.com/aleveille/telegraf/plugins/inputs"
 )
 
 // SQLServer struct

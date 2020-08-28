@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/db"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/db"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/utils"
 	"github.com/jackc/pgx"
 	"github.com/stretchr/testify/assert"
 )

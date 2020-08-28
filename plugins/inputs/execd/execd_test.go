@@ -11,17 +11,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/agent"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/agent"
+	"github.com/aleveille/telegraf/config"
+	"github.com/aleveille/telegraf/metric"
+	"github.com/aleveille/telegraf/models"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/aleveille/telegraf/plugins/parsers"
+	"github.com/aleveille/telegraf/plugins/serializers"
 
-	"github.com/influxdata/telegraf"
+	"github.com/aleveille/telegraf"
 )
 
 func TestSettingConfigWorks(t *testing.T) {

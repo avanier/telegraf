@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/process"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/config"
+	"github.com/aleveille/telegraf/internal/process"
+	"github.com/aleveille/telegraf/plugins/parsers"
+	"github.com/aleveille/telegraf/plugins/processors"
+	"github.com/aleveille/telegraf/plugins/serializers"
 )
 
 const sampleConfig = `

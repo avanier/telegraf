@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/metric"
 )
 
 func createMetric(name string, value int64, when time.Time) telegraf.Metric {

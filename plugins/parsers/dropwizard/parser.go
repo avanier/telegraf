@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/templating"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal/templating"
+	"github.com/aleveille/telegraf/metric"
+	"github.com/aleveille/telegraf/plugins/parsers/influx"
 	"github.com/tidwall/gjson"
 )
 

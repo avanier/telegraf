@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/testutil"
 )
 
 func TestGatherServicesStatus(t *testing.T) {

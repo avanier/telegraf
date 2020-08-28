@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/inputs"
 )
 
 // Type Riak gathers statistics from one or more Riak instances

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/postgresql"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf/plugins/inputs/postgresql"
 	_ "github.com/jackc/pgx/stdlib" // register driver
 )
 

@@ -11,12 +11,12 @@ import (
 
 	"github.com/dimchansky/utfbom"
 	"github.com/influxdata/tail"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/globpath"
-	"github.com/influxdata/telegraf/plugins/common/encoding"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal/globpath"
+	"github.com/aleveille/telegraf/plugins/common/encoding"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf/plugins/parsers"
+	"github.com/aleveille/telegraf/plugins/parsers/csv"
 )
 
 const (
@@ -105,7 +105,7 @@ const sampleConfig = `
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/aleveille/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	tlsint "github.com/aleveille/telegraf/plugins/common/tls"
+	"github.com/aleveille/telegraf/plugins/outputs"
 )
 
 const (

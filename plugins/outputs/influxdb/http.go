@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/plugins/serializers/influx"
 )
 
 const (

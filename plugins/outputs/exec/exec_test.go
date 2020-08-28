@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/plugins/serializers"
+	"github.com/aleveille/telegraf/testutil"
 )
 
 func TestExec(t *testing.T) {

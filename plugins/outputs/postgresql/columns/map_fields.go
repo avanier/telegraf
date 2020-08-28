@@ -1,8 +1,8 @@
 package columns
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/utils"
 )
 
 func mapFields(fieldList []*telegraf.Field, alreadyMapped map[string]bool, columns *utils.TargetColumns) {

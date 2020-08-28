@@ -10,12 +10,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	tlsint "github.com/aleveille/telegraf/plugins/common/tls"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf/plugins/parsers/influx"
+	"github.com/aleveille/telegraf/selfstat"
 )
 
 const (

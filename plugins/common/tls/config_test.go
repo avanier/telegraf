@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/plugins/common/tls"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

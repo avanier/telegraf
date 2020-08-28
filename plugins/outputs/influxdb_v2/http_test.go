@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	influxdb "github.com/influxdata/telegraf/plugins/outputs/influxdb_v2"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf"
+	influxdb "github.com/aleveille/telegraf/plugins/outputs/influxdb_v2"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/process"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/config"
+	"github.com/aleveille/telegraf/internal/process"
+	"github.com/aleveille/telegraf/plugins/outputs"
+	"github.com/aleveille/telegraf/plugins/serializers"
 )
 
 const sampleConfig = `
@@ -24,7 +24,7 @@ const sampleConfig = `
   ## Data format to export.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  ## https://github.com/aleveille/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
   data_format = "influx"
 `
 

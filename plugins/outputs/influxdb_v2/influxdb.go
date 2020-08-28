@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/plugins/common/tls"
+	"github.com/aleveille/telegraf/plugins/outputs"
+	"github.com/aleveille/telegraf/plugins/serializers/influx"
 )
 
 var (

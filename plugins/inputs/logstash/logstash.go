@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	jsonParser "github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/internal/choice"
+	"github.com/aleveille/telegraf/plugins/common/tls"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	jsonParser "github.com/aleveille/telegraf/plugins/parsers/json"
 )
 
 const sampleConfig = `

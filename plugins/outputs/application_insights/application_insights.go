@@ -8,9 +8,9 @@ import (
 	"unsafe"
 
 	"github.com/Microsoft/ApplicationInsights-Go/appinsights"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/plugins/outputs"
 )
 
 type TelemetryTransmitter interface {

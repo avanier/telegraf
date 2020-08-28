@@ -1,8 +1,8 @@
 package columns
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/utils"
 )
 
 func mapTags(tagList []*telegraf.Tag, alreadyMapped map[string]bool, columns *utils.TargetColumns) {

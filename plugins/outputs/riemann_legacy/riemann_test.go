@@ -3,7 +3,7 @@ package riemann_legacy
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

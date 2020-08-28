@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/metric"
 )
 
 func TestRequireMetricEqual(t *testing.T) {

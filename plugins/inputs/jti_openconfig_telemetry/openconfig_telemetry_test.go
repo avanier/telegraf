@@ -10,9 +10,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs/jti_openconfig_telemetry/oc"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/plugins/inputs/jti_openconfig_telemetry/oc"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/aleveille/telegraf"
 )
 
 func (e *Execd) Gather(acc telegraf.Accumulator) error {

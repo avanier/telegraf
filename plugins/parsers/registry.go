@@ -3,19 +3,19 @@ package parsers
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers/collectd"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
-	"github.com/influxdata/telegraf/plugins/parsers/dropwizard"
-	"github.com/influxdata/telegraf/plugins/parsers/form_urlencoded"
-	"github.com/influxdata/telegraf/plugins/parsers/graphite"
-	"github.com/influxdata/telegraf/plugins/parsers/grok"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/plugins/parsers/logfmt"
-	"github.com/influxdata/telegraf/plugins/parsers/nagios"
-	"github.com/influxdata/telegraf/plugins/parsers/value"
-	"github.com/influxdata/telegraf/plugins/parsers/wavefront"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/parsers/collectd"
+	"github.com/aleveille/telegraf/plugins/parsers/csv"
+	"github.com/aleveille/telegraf/plugins/parsers/dropwizard"
+	"github.com/aleveille/telegraf/plugins/parsers/form_urlencoded"
+	"github.com/aleveille/telegraf/plugins/parsers/graphite"
+	"github.com/aleveille/telegraf/plugins/parsers/grok"
+	"github.com/aleveille/telegraf/plugins/parsers/influx"
+	"github.com/aleveille/telegraf/plugins/parsers/json"
+	"github.com/aleveille/telegraf/plugins/parsers/logfmt"
+	"github.com/aleveille/telegraf/plugins/parsers/nagios"
+	"github.com/aleveille/telegraf/plugins/parsers/value"
+	"github.com/aleveille/telegraf/plugins/parsers/wavefront"
 )
 
 type ParserFunc func() (Parser, error)

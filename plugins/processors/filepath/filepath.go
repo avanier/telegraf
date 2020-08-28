@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/processors"
 )
 
 type Options struct {

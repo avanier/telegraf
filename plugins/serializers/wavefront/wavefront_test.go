@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/outputs/wavefront"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/metric"
+	"github.com/aleveille/telegraf/plugins/outputs/wavefront"
 	"github.com/stretchr/testify/assert"
 )
 

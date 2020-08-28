@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/testutil"
 )
 
 func TestGather(t *testing.T) {

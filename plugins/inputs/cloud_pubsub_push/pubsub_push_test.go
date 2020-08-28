@@ -13,12 +13,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/agent"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/agent"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/models"
+	"github.com/aleveille/telegraf/plugins/parsers"
+	"github.com/aleveille/telegraf/testutil"
 )
 
 func TestServeHTTP(t *testing.T) {

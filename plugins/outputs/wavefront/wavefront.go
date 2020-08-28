@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/outputs"
 	wavefront "github.com/wavefronthq/wavefront-sdk-go/senders"
 )
 

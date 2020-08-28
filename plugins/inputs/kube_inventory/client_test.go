@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/ericchiang/k8s/util/intstr"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/aleveille/telegraf/plugins/common/tls"
 )
 
 type mockHandler struct {

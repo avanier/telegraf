@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/gorilla/mux"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/trace"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf/plugins/inputs/zipkin/trace"
 )
 
 const (

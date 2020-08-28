@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/inputs/system"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/plugins/inputs/system"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

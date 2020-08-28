@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/testutil"
 )
 
 func TestJobRequest(t *testing.T) {

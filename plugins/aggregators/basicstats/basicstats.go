@@ -3,8 +3,8 @@ package basicstats
 import (
 	"math"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/aggregators"
 )
 
 type BasicStats struct {

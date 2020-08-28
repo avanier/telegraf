@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/golang/groupcache/lru"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/columns"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/db"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/columns"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/db"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/utils"
 )
 
 const (

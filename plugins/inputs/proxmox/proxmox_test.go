@@ -2,7 +2,7 @@ package proxmox
 
 import (
 	"github.com/bmizerany/assert"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 	"net/url"
 	"strings"

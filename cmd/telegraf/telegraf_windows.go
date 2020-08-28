@@ -7,7 +7,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/influxdata/telegraf/logger"
+	"github.com/aleveille/telegraf/logger"
 	"github.com/kardianos/service"
 )
 

@@ -1,6 +1,6 @@
 package columns
 
-import "github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+import "github.com/aleveille/telegraf/plugins/outputs/postgresql/utils"
 
 // Column names and data types for standard fields (time, tag_id, tags, and fields)
 const (

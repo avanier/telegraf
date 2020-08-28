@@ -3,9 +3,9 @@ package seriesgrouper
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/metric"
+	"github.com/aleveille/telegraf/plugins/aggregators"
 )
 
 const (

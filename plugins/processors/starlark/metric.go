@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/aleveille/telegraf"
 	"go.starlark.net/starlark"
 )
 

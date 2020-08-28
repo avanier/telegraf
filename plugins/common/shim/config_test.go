@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	tgConfig "github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf"
+	tgConfig "github.com/aleveille/telegraf/config"
+	"github.com/aleveille/telegraf/plugins/inputs"
 	"github.com/stretchr/testify/require"
 )
 

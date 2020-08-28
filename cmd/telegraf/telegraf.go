@@ -15,17 +15,17 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdata/telegraf/agent"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/goplugin"
-	"github.com/influxdata/telegraf/logger"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/all"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	_ "github.com/influxdata/telegraf/plugins/inputs/all"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	_ "github.com/influxdata/telegraf/plugins/outputs/all"
-	_ "github.com/influxdata/telegraf/plugins/processors/all"
+	"github.com/aleveille/telegraf/agent"
+	"github.com/aleveille/telegraf/config"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/internal/goplugin"
+	"github.com/aleveille/telegraf/logger"
+	_ "github.com/aleveille/telegraf/plugins/aggregators/all"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	_ "github.com/aleveille/telegraf/plugins/inputs/all"
+	"github.com/aleveille/telegraf/plugins/outputs"
+	_ "github.com/aleveille/telegraf/plugins/outputs/all"
+	_ "github.com/aleveille/telegraf/plugins/processors/all"
 )
 
 // If you update these, update usage.go and usage_windows.go

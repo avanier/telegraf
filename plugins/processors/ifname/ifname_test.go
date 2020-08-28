@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/snmp"
-	si "github.com/influxdata/telegraf/plugins/inputs/snmp"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/config"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/internal/snmp"
+	si "github.com/aleveille/telegraf/plugins/inputs/snmp"
+	"github.com/aleveille/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

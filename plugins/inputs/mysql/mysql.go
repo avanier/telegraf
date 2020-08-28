@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/mysql/v1"
-	"github.com/influxdata/telegraf/plugins/inputs/mysql/v2"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/common/tls"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf/plugins/inputs/mysql/v1"
+	"github.com/aleveille/telegraf/plugins/inputs/mysql/v2"
 )
 
 type Mysql struct {

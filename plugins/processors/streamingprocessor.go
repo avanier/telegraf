@@ -1,7 +1,7 @@
 package processors
 
 import (
-	"github.com/influxdata/telegraf"
+	"github.com/aleveille/telegraf"
 )
 
 // NewStreamingProcessorFromProcessor is a converter that turns a standard

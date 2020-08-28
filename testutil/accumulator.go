@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/aleveille/telegraf"
 	"github.com/stretchr/testify/assert"
 )
 

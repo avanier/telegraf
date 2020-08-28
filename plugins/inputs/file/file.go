@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 
 	"github.com/dimchansky/utfbom"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/globpath"
-	"github.com/influxdata/telegraf/plugins/common/encoding"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/internal/globpath"
+	"github.com/aleveille/telegraf/plugins/common/encoding"
+	"github.com/aleveille/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf/plugins/parsers"
 )
 
 type File struct {
@@ -45,7 +45,7 @@ const sampleConfig = `
   ## The dataformat to be read from files
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/aleveille/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

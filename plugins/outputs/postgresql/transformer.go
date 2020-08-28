@@ -1,9 +1,9 @@
 package postgresql
 
 import (
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/columns"
-	"github.com/influxdata/telegraf/plugins/outputs/postgresql/utils"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/columns"
+	"github.com/aleveille/telegraf/plugins/outputs/postgresql/utils"
 )
 
 type transformer interface {

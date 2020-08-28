@@ -3,7 +3,7 @@ package codec
 import (
 	"time"
 
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/trace"
+	"github.com/aleveille/telegraf/plugins/inputs/zipkin/trace"
 	"github.com/openzipkin/zipkin-go-opentracing/thrift/gen-go/zipkincore"
 )
 

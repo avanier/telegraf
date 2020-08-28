@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/selfstat"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/selfstat"
+	"github.com/aleveille/telegraf/testutil"
 )
 
 // newListener is the minimal InfluxDBListener construction to serve writes.

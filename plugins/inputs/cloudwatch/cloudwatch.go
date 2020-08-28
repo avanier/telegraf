@@ -11,14 +11,14 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	internalaws "github.com/influxdata/telegraf/config/aws"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/limiter"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/aleveille/telegraf"
+	"github.com/aleveille/telegraf/config"
+	internalaws "github.com/aleveille/telegraf/config/aws"
+	"github.com/aleveille/telegraf/filter"
+	"github.com/aleveille/telegraf/internal"
+	"github.com/aleveille/telegraf/internal/limiter"
+	"github.com/aleveille/telegraf/metric"
+	"github.com/aleveille/telegraf/plugins/inputs"
 )
 
 // CloudWatch contains the configuration and cache for the cloudwatch plugin.

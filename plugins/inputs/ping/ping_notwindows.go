@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/influxdata/telegraf"
+	"github.com/aleveille/telegraf"
 )
 
 func (p *Ping) pingToURL(u string, acc telegraf.Accumulator) {
